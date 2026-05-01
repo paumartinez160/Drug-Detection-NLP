@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# System metadata
+.DS_Store
+desktop.ini
+
+# Scripts no usados por DDI_nn_TEST.ipynb
+07-DDI-nn/train.py
+07-DDI-nn/predict.py
+07-DDI-nn/parse_data.py
+07-DDI-nn/transformer.py
+07-DDI-nn/run.sh
+
+# Modelo Keras pre-existente (no cargado por el notebook)
+07-DDI-nn/model.idx
+07-DDI-nn/model/
+
+# Datos XML no usados (el notebook solo usa devel/ via evaluator)
+lab_resources/DDI/data/train/
+lab_resources/DDI/data/test/
+
+# Recursos y papers no referenciados por el notebook
+lab_resources/DDI/papers/
+lab_resources/DDI/resources/
+
+# Utilidades no importadas por el notebook
+lab_resources/DDI/util/ddi2gold.py
+lab_resources/DDI/util/ner2gold.py
+
+# Directorio LangDetect no usado en absoluto
+lab_resources/LangDetect/
+
+# Artefactos generados por el notebook
+out.txt
+biobert_best.pt
+*.keras
